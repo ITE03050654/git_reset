@@ -13,3 +13,5 @@ git reset 分為hard、soft、mixed三種<br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/commit3.PNG)</br></br>
 4.接著執行 git commit 後，將Git索引中所有異動檔案內容提交至 Repository 中，建立出新的 commit 結點(HEAD)後，資料內容又會於 working tree 、 index 與 repository(HEAD) 中保持一致。</br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/commit4.PNG)</br></br>
+</br></br>
+git reset 實際操作</br>
