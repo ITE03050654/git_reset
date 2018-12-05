@@ -15,6 +15,7 @@ git reset 分為hard、soft、mixed三種<br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/commit4.PNG)</br></br>
 </br></br>
 git reset 實際操作</br>
+1.git reset --soft</br>
 首先我在筆記本裡依序輸入ABCD四個字串，並在每一次輸入字母時commit一次</br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/soft1.PNG)</br></br>
 在最後一次的commit後head是指向"D"的，而現在我們使用reset --soft到commit"A"，commit之後再看看git status還有文件，發現git的暫存區有了新的資料且原本的檔案並沒有被改變</br>
