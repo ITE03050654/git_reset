@@ -15,3 +15,4 @@ git reset 分為hard、soft、mixed三種<br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/commit4.PNG)</br></br>
 </br></br>
 git reset 實際操作</br>
+1.
