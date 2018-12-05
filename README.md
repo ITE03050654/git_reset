@@ -29,3 +29,7 @@ git reset 實際操作</br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/mixed1.PNG)</br></br>
 這個模式只保留Working Tree資料內容，不異動到目前所有的實體檔案內容。另外最常使用的情境為移除所有Index中準備要提交的檔案(Staged files)，我們也可以執行 git reset HEAD 來 Unstage 所有已列入 Index 的待提交檔案。
 ![image](https://github.com/ITE03050654/git_reset/blob/master/mixed2.PNG)</br></br>
+3.git reset --hard</br>
+git reset --hard 會把資料還原到目標版本，並不會在暫存區有任何資料，也就是直接將 working Tree、index 及 repository 都重置成目標Reset結點的資料內容。</br>
+![image](https://github.com/ITE03050654/git_reset/blob/master/hard1.PNG)</br></br>
+![image](https://github.com/ITE03050654/git_reset/blob/master/hard2.PNG)</br></br>
