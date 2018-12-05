@@ -24,3 +24,8 @@ git reset 實際操作</br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/soft3.PNG)</br></br>
 有此我們可以知道git reset --soft是把git回朔版本之後的修改從commit變成在暫存區，換句話說就是此模式使用 Soft Reset 來把中間所有的commit一次做commit來讓 commit 演進線圖較為清晰。</br>
 ![image](https://github.com/ITE03050654/git_reset/blob/master/soft4.PNG)</br></br>
+2.git reset --mixed</br>
+和soft的範例前提一樣有一個abcd字串的筆記本，且每次輸入一排字母就commit一次，然後我們把目前所在的位置(D)git reset --mixed到目標上(A)，發現mixed跟soft一樣都不會改變實體檔案，但是跟soft不一樣的是mixed會退回到加入暫存區之前</br>
+![image](https://github.com/ITE03050654/git_reset/blob/master/mixed1.PNG)</br></br>
+這個模式只保留Working Tree資料內容，不異動到目前所有的實體檔案內容。另外最常使用的情境為移除所有Index中準備要提交的檔案(Staged files)，我們也可以執行 git reset HEAD 來 Unstage 所有已列入 Index 的待提交檔案。
+![image](https://github.com/ITE03050654/git_reset/blob/master/mixed2.PNG)</br></br>
